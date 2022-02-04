@@ -20,4 +20,4 @@ jobs:
     steps:
       - run: >
           echo "User ${{github.event.inputs.username}} ran a workflow manually."
-          echo "Because ${{github.event.reason}}."
+          echo "Because ${{github.event.inputs.reason}}."
